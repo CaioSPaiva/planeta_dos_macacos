@@ -137,7 +137,6 @@ body {
 }
 
 .image-text-section {
-    background: black url(../images/planeta-dos-macacos.jpg) center center no-repeat fixed;
     padding: 5.6vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -165,6 +164,10 @@ body {
 
         img {
             width: 100%;
+        }
+
+        h2, p {
+            color: black;
         }
 
         &__text_container {
